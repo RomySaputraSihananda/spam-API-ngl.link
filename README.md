@@ -28,4 +28,4 @@ npm run start
 👤 **romyy**
 
 - Twitter: [@RomySihananda](https://twitter.com/RomySihananda)
-- Instagram: [@RomySihananda](https://instagram.com/romys.12)
+- Instagram: [@romys.12](https://instagram.com/romys.12)
