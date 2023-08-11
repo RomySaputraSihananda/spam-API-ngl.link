@@ -32,9 +32,9 @@ const check = async (username) => {
 
 const spam = async ({ username, choices, delay, limit }) => {
   const status = await check(username);
-  if (status === 200) console.log("\nName Found !\n");
-  if (status === 404) return console.log("\nName Not Found !\n");
-  if (status === 500) return console.log("\nConnection Error !\n");
+  if (status === 200) console.log("\nName Found !");
+  if (status === 404) return console.log("\nName Not Found !");
+  if (status === 500) return console.log("\nConnection Error !");
 
   const loop = setInterval(async () => {
     const question = generateQuestion();
